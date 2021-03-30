@@ -4,6 +4,8 @@
 
 function randomNumber(min, max) {
   return Math.round(Math.random() * (max - min) + min);
-}
+};
 
-console.log(randomNumber(0, 100));
+let x = randomNumber(0, 100);
+
+console.log(x);
